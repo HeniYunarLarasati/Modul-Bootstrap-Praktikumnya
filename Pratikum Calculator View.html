@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator View</title>
+    <style media="screen">
+      .btn-outline-success{
+        width:50px;
+        height: 30px;
+        margin-left: 10px;
+      }
+      .btn-outline-dark{
+        width: 244px;
+        height: 50px;
+        margin: 10px;
+      }
+      .btn-outline-info{
+        width:50px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .btn-danger{
+        width:115px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .btn-warning{
+        width:50px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <legend align="center">Bootstrap Calculator</legend>
+    <div class="calculator text-center">
+
+    <input type="text" class="btn btn-outline-dark calculator-screen text-right" value="0" disabled />
+
+    <div class="calculator-keys">
+
+      <button type="button" class="btn btn-warning clear" value="clear">C</button>
+      <button type="button" class="btn btn-warning all-clear" value="all-clear">AC</button>
+      <button type="button" class="btn btn-warning square-root" value="square-root">&#8730;</button>
+      <button type="button" class="btn btn-warning" value="/">&divide;</button>
+      <br>
+      <button type="button" class="btn btn-outline-info" value="7">7</button>
+      <button type="button" class="btn btn-outline-info" value="8">8</button>
+      <button type="button" class="btn btn-outline-info" value="9">9</button>
+      <button type="button" class="btn btn-warning" value="*">&times;</button
+      <br>
+      <br>
+      <button type="button" class="btn btn-outline-info" value="4">4</button>
+      <button type="button" class="btn btn-outline-info" value="5">5</button>
+      <button type="button" class="btn btn-outline-info" value="6">6</button>
+      <button type="button" class="btn btn-warning" value="-">&#8722;</button>
+      <br>
+      <button type="button" class="btn btn-outline-info" value="1">1</button>
+      <button type="button" class="btn btn-outline-info" value="2">2</button>
+      <button type="button" class="btn btn-outline-info" value="3">3</button>
+      <button type="button" class="btn btn-warning" value="+">&#43;</button>
+      <br>
+      <button type="button" class="btn btn-outline-info" value="0">0</button>
+      <button type="button" class="btn btn-outline-info decimal" value=".">.</button>
+      <button type="button" class="btn btn-danger equal-sign" value="=">=</button>
+      <br>
+
+    </div>
+  </div>
+  </body>
+</html>
